@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: multi-tenant-network
+
+  thymeleaf:
+    cache: false
+
+server:
+  port: ${PORT:8080}
+  address: 0.0.0.0
